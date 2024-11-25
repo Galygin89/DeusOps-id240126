@@ -5,4 +5,4 @@ sudo apt install -y vagrant virtualbox virtualbox-ext-pack
 echo "		###  Инициализация Vagrant  ###"
 vagrant init
 echo "		###  Заменяем Vagrantfile из git репозитория  ###"
-cp ~/Git/DeusOps-id231206/Light/Vagrantfile ~/Vagrant/Vagrantfile
+cp ~/Git/DeusOps-id240126/Light/Vagrantfile ~/Vagrant/Vagrantfile

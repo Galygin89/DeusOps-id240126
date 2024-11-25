@@ -20,4 +20,6 @@ sudo apt install nginx=1.26*
 systemctl start nginx
 systemctl enable --now nginx
 systemctl status nginx
+
+echo "Open ports"
 netstat -plntu | grep nginx

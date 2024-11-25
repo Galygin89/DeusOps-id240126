@@ -61,7 +61,7 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", path: nginx.sh
-  config.vm.provision "shell", path: Nodejs.sh
+  config.vm.provision "shell", path: node_install_v16.sh
      #apt-get update
      #apt-get install -y nginx   
 end

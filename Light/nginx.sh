@@ -21,5 +21,5 @@ systemctl start nginx
 systemctl enable --now nginx
 systemctl status nginx
 
-echo "Open ports"
-netstat -plntu | grep nginx
+echo "View open ports for nginx"
+ss -plntu | grep nginx

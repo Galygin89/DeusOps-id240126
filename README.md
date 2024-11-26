@@ -5,8 +5,9 @@
 4. Создайте linux system unit отвечающий за запуска сервиса с игрой
 5. Сделайте простейшую автоматизацию для настройки сервера: bash-скрипты либо vagrant provisioning
  -  Этапы развертывания(Ubuntu22.04):
-       - На развернутой Ubuntu 22.04 Запустить в терминале (находясь в домашнем каталоге пользователя) git clone https://github.com/Galygin89/DeusOps-id240126.git && cd DeusOps-id240126/Light/ 
-       - Из скаченого репо делаем файл Install.sh исполняемым sudo chmod +x Install.sh и следом sudo ./Install.sh
+       - На развернутой Ubuntu 22.04 запустить в терминале (находясь в домашнем каталоге пользователя):
+         git clone https://github.com/Galygin89/DeusOps-id240126.git && cd DeusOps-id240126/Light/ && bash ~/DeusOps-id240126/Light/Install.sh
+       # - Из скаченого репо делаем файл Install.sh исполняемым sudo chmod +x Install.sh и следом sudo ./Install.sh
        - Принимаем лицензионное соглашение от virtualbox-ext-pack
        - Выбираем все устаревшие службы которые нужно перезагрузить
    

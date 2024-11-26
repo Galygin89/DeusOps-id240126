@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 set -e
+
+echo "		###  Создаём рабочий каталог Vagrant  ####"
+sleep 5
 cd /tmp
 mkdir /tmp/Vagrant
 echo "		###  Установка Vagrant  Virtualbox  Extension Pack  ####"
@@ -9,7 +12,6 @@ echo "		###  Инициализация Vagrant  ###"
 sleep 5
 cd /tmp/Vagrant/ 
 vagrant init
-
 echo "		###  Заменяем Vagrantfile из git репозитория  ###"
 sleep 5
 rm -f /tmp/Vagrant/Vagrantfile && cp -r ~/DeusOps-id240126/Light/Vagrantfile /tmp/Vagrant/Vagrantfile

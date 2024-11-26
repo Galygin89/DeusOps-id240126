@@ -14,7 +14,7 @@ echo "		###  Заменяем Vagrantfile из git репозитория  ###"
 sleep 5
 rm -f /tmp/Vagrant/Vagrantfile && cp -r ~/DeusOps-id240126/Light/Vagrantfile /tmp/Vagrant/Vagrantfile
 cp ~/DeusOps-id240126/Light/nginx.sh /tmp/Vagrant/ && cp ~/DeusOps-id240126/Light/2048-game.sh /tmp/Vagrant/ && cp ~/DeusOps-id240126/Light/nodejs_install_v16.sh /tmp/Vagrant/
-mkdir /tmp/vbox/ && cd /tmp/vbox/ && echo '* 0.0.0.0/0 ::/0' > /tmp/vbox/networks.conf && chmod 644 /etc/vbox/networks.conf && mv /tmp/vbox/networks.conf /etc/vbox/
+mkdir /tmp/vbox/ && cd /tmp/vbox/ && echo '* 0.0.0.0/0 ::/0' > /tmp/vbox/networks.conf && chmod 644 /tmp/vbox/networks.conf && mv /tmp/vbox/networks.conf /etc/vbox/
 echo "		###  Запуск Vagrant  ###"
 sleep 2
 vagrant up

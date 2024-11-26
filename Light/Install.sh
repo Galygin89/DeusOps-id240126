@@ -6,6 +6,5 @@ echo "		###  Инициализация Vagrant  ###"
 vagrant init
 echo "		###  Заменяем Vagrantfile из git репозитория  ###"
 cp ~/Git/DeusOps-id240126/Light/Vagrantfile ~/Vagrant/Vagrantfile
+echo "		###  Запуск Vagrant  ###"
 vagrant up
-
-

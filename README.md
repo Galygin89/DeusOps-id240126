@@ -8,6 +8,7 @@
        - На развернутой Ubuntu 22.04 Запустить в терминале git clone https://github.com/Galygin89/DeusOps-id240126.git и перейти в каталог cd DeusOps-id240126/Light/
        - Из скаченого репо делаем файл исполняемым sudo chmod +x Install.sh и следом sudo ./Install.sh
        - Принять лицензионное соглашение от virtualbox-ext-pack
+       - Выбираем все устаревшие службы которые нужно перезагрузить
    
 
 Уровень Normal

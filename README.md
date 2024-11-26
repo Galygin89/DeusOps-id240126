@@ -6,7 +6,7 @@
 5. Сделайте простейшую автоматизацию для настройки сервера: bash-скрипты либо vagrant provisioning
  -  Этапы развертывания(Ubuntu22.04):
        - На развернутой Ubuntu 22.04 Запустить в терминале (находясь в домашнем каталоге пользователя) git clone https://github.com/Galygin89/DeusOps-id240126.git и перейти в каталог cd DeusOps-id240126/Light/
-       - Из скаченого репо делаем файл исполняемым sudo chmod +x Install.sh и следом sudo ./Install.sh
+       - Из скаченого репо делаем файл Install.sh исполняемым sudo chmod +x Install.sh и следом sudo ./Install.sh
        - Принять лицензионное соглашение от virtualbox-ext-pack
        - Выбираем все устаревшие службы которые нужно перезагрузить
    

@@ -8,6 +8,7 @@
        - На развернутой Ubuntu Server 22.04 в терминале запустить (находясь в домашнем каталоге пользователя):
          - sudo git clone https://github.com/Galygin89/DeusOps-id240126.git && cd DeusOps-id240126/Light/
          - sudo chmod +x Install.sh
+         - sudo ./Install.sh
        - Принимаем лицензионное соглашение от virtualbox-ext-pack
        - Выбираем все устаревшие службы которые нужно перезагрузить
    

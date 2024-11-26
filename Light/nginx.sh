@@ -17,7 +17,8 @@ echo "To install nginx, run the following commands:"
 sudo apt update
 sudo apt install nginx=1.26*
 
-ПРИДУМАТЬ КАК Заменить содержимое в /etc/nginx.conf.d/default.conf
+mv /vagrant/2048.conf /etc/nginx.conf.d/2048.conf
+rm -f /etc/nginx.conf.d/default.conf
 
 systemctl start nginx
 systemctl enable --now nginx

@@ -12,7 +12,7 @@ vagrant init
 
 echo "		###  Заменяем Vagrantfile из git репозитория  ###"
 sleep 5
-rm -f /tmp/Vagrant/Vagrantfile && cp ~/DeusOps-id240126/Light/Vagrantfile /tmp/Vagrant/Vagrantfile
+rm -f /tmp/Vagrant/Vagrantfile && cp -r ~/DeusOps-id240126/Light/Vagrantfile /tmp/Vagrant/Vagrantfile
 
 echo "		###  Запуск Vagrant  ###"
 sleep 2

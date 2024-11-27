@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#!/usr/bin/env bash
 set -e
 
 cd ~ && mkdir 2048 && cd 2048
